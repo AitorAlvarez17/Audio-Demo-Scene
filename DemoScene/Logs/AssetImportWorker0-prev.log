@@ -1,0 +1,1011 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.14f1 (d0d1bb862f9d) revision 13685179'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19043.1645; Version 2009; 64bit' Language: 'en' Physical Memory: 16301 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/david.font/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52739
+Successfully changed project path to: C:/Users/david.font/My project
+C:/Users/david.font/My project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 24.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/david.font/My project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   27.21.14.5751
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001367 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 24.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.313 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1314ms)
+		BeginReloadAssembly (41ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (326ms)
+			LoadAssemblies (40ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (129ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (119ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (24ms)
+				BeforeProcessingInitializeOnLoad (5ms)
+				ProcessInitializeOnLoadAttributes (64ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003123 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.885 seconds
+Domain Reload Profiling:
+	ReloadAssembly (886ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (714ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (261ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (255ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1400 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.0 MB.
+System memory in use after: 66.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1837.
+Total: 1.627300 ms (FindLiveObjects: 0.141300 ms CreateObjectMapping: 0.037000 ms MarkObjects: 1.378400 ms  DeleteObjects: 0.069600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_Door_1B4.prefab
+  artifactKey: Guid(87b7609d6bdd828418e0683654cede03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_Door_1B4.prefab using Guid(87b7609d6bdd828418e0683654cede03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf38660cb30e617284272104514afa79') in 0.412912 seconds 
+  Import took 0.415313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_Window_1B.prefab
+  artifactKey: Guid(8ea01378e69e83146b1e99b5da141c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_Window_1B.prefab using Guid(8ea01378e69e83146b1e99b5da141c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81794a0c5411e696eb06138845d2f0e6') in 0.026873 seconds 
+  Import took 0.029455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_1B2.prefab
+  artifactKey: Guid(1911a0454604e1a44bc897758e48a582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_1B2.prefab using Guid(1911a0454604e1a44bc897758e48a582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cde9ea5033334de38542a019787f872') in 0.026026 seconds 
+  Import took 0.028737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_1A.prefab
+  artifactKey: Guid(e39cc881e3e43214e96f2752e5a6e941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_1A.prefab using Guid(e39cc881e3e43214e96f2752e5a6e941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0782b3c22923e4724567977215b2a9') in 0.018415 seconds 
+  Import took 0.021167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_1A.prefab
+  artifactKey: Guid(8788c47ca714a0a4ba42bbe5ca58fbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_1A.prefab using Guid(8788c47ca714a0a4ba42bbe5ca58fbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019ef014b1cdf77a6370d324a1203e27') in 0.020081 seconds 
+  Import took 0.022517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_Triangle_1A.prefab
+  artifactKey: Guid(795f5e895728b8b41904da6fc855ea3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_Triangle_1A.prefab using Guid(795f5e895728b8b41904da6fc855ea3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ddc2e48a706034b93255d3a8711a54') in 0.018085 seconds 
+  Import took 0.021152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_Door_1A4.prefab
+  artifactKey: Guid(94a6e10684376484391bb2060b9656d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_Door_1A4.prefab using Guid(94a6e10684376484391bb2060b9656d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a8d980ac9157f835f21051a742a51e') in 0.020223 seconds 
+  Import took 0.022842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_1B.prefab
+  artifactKey: Guid(ababc5b3ce7049b41a53d937d6c3c77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_1B.prefab using Guid(ababc5b3ce7049b41a53d937d6c3c77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd4a2b44dddc41bd515e4f2ada860b6') in 0.020823 seconds 
+  Import took 0.023381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_1C.prefab
+  artifactKey: Guid(ef3deb8c84c9dbe45a3253a6075aed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_1C.prefab using Guid(ef3deb8c84c9dbe45a3253a6075aed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f94b6d39d9c61050cd423a282bd126') in 0.018549 seconds 
+  Import took 0.021689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/Stone_Wall_1A.prefab
+  artifactKey: Guid(ebc2ec08ed1b4e549ab8fc276e8049c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/Stone_Wall_1A.prefab using Guid(ebc2ec08ed1b4e549ab8fc276e8049c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dcdd4dbf467e9222ba5f83a6d391e0a') in 0.018206 seconds 
+  Import took 0.020785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_Door_1A.prefab
+  artifactKey: Guid(9ab6fd78960ba6c46bcd1487cc967fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_Door_1A.prefab using Guid(9ab6fd78960ba6c46bcd1487cc967fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c320ea9f084d8f0b5c35fcfacfa4f7e') in 0.020112 seconds 
+  Import took 0.022480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_Triangle_1B2.prefab
+  artifactKey: Guid(4aea93d109b0eaa479bb6994203a7254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_Triangle_1B2.prefab using Guid(4aea93d109b0eaa479bb6994203a7254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a6d08fa49315770129c129f57fa0e5') in 0.026229 seconds 
+  Import took 0.028657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_Triangle_1C2.prefab
+  artifactKey: Guid(5099d67b68bd2284fba39a9f54f4992d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_Triangle_1C2.prefab using Guid(5099d67b68bd2284fba39a9f54f4992d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fd92246b7c60d9ce59fc0d4836ba63') in 0.019446 seconds 
+  Import took 0.022363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_Triangle_1B.prefab
+  artifactKey: Guid(c58feb9cbf01f484f96b74aa4e6b5762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_Triangle_1B.prefab using Guid(c58feb9cbf01f484f96b74aa4e6b5762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f88e0f5447d6f5e9016bf7a4d903bd') in 0.017869 seconds 
+  Import took 0.020734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_1B2.prefab
+  artifactKey: Guid(25db32eb803383f4f99a1a2610afd65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_1B2.prefab using Guid(25db32eb803383f4f99a1a2610afd65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88839764d091f0065cdcc4fcab57cbc2') in 0.020419 seconds 
+  Import took 0.022815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_1D2.prefab
+  artifactKey: Guid(88ddbf901b795104489894ccad6d484f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_1D2.prefab using Guid(88ddbf901b795104489894ccad6d484f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b6b7ee6043113544b1895ca3b97a81') in 0.021338 seconds 
+  Import took 0.024146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_Window_1A.prefab
+  artifactKey: Guid(ee96436b994509e42a8106d1b8bf8a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_Window_1A.prefab using Guid(ee96436b994509e42a8106d1b8bf8a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb3460b43465e620997e8ee8e32594e') in 0.018420 seconds 
+  Import took 0.021545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_1C.prefab
+  artifactKey: Guid(7a71a73b750c26d4b8799d66951071d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_1C.prefab using Guid(7a71a73b750c26d4b8799d66951071d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25738f2958ce3aca2e24e2d68c34617') in 0.019344 seconds 
+  Import took 0.021743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_Window_1B2.prefab
+  artifactKey: Guid(b64f191381548954fb34108c12b24e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_Window_1B2.prefab using Guid(b64f191381548954fb34108c12b24e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b665d3d788cfacb8875d00fad0e0c8fb') in 0.017103 seconds 
+  Import took 0.020283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_1A2.prefab
+  artifactKey: Guid(b4ec2e072f9907142bdae941457df304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_1A2.prefab using Guid(b4ec2e072f9907142bdae941457df304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79536c91bf22e2692cba634aa57321b') in 0.018357 seconds 
+  Import took 0.020995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/Stone_Wall_1A2.prefab
+  artifactKey: Guid(d59fa0906bbd589479f1666d0e18322c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/Stone_Wall_1A2.prefab using Guid(d59fa0906bbd589479f1666d0e18322c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68275e5fa42e51f2fdb07b7525da0023') in 0.019347 seconds 
+  Import took 0.021777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_Door_1A2.prefab
+  artifactKey: Guid(7436795bbdef1b445a154106f4f02348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_Door_1A2.prefab using Guid(7436795bbdef1b445a154106f4f02348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313377e2a69ba77f3b70a624344f11aa') in 0.019478 seconds 
+  Import took 0.022167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_1D.prefab
+  artifactKey: Guid(c161f1b3463f0e34285cc3993493db93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_1D.prefab using Guid(c161f1b3463f0e34285cc3993493db93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53de5cb5b39bc9d11f258cc86d89b676') in 0.019663 seconds 
+  Import took 0.022747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_1C2.prefab
+  artifactKey: Guid(218c2d11f4184954cbeedf79022606d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_1C2.prefab using Guid(218c2d11f4184954cbeedf79022606d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aeb0f2be1ae1d167e68df40b8063874') in 0.019239 seconds 
+  Import took 0.021559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_Triangle_1C.prefab
+  artifactKey: Guid(48c616df4314c9a4ba54bfc4ed9afb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_Triangle_1C.prefab using Guid(48c616df4314c9a4ba54bfc4ed9afb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8a81f5710d40f0683e860bcaa8c0fb') in 0.019502 seconds 
+  Import took 0.022923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_Triangle_1A2.prefab
+  artifactKey: Guid(f2807a7fe6dd4a84c855658888e8fce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_Triangle_1A2.prefab using Guid(f2807a7fe6dd4a84c855658888e8fce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9dddb3869113b3a46f0466227283beb') in 0.019992 seconds 
+  Import took 0.023348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_1E2.prefab
+  artifactKey: Guid(e78475278c11106428f09524cb61fc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_1E2.prefab using Guid(e78475278c11106428f09524cb61fc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95467374963136f2bef9246a5304b25f') in 0.021635 seconds 
+  Import took 0.024347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_Door_1B2.prefab
+  artifactKey: Guid(53b52ddc336cdca45b30446c30fc5c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_Door_1B2.prefab using Guid(53b52ddc336cdca45b30446c30fc5c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3061a59842ed631f78a81fa769ce66ad') in 0.020407 seconds 
+  Import took 0.023112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_Door_1B.prefab
+  artifactKey: Guid(9f70b51d654f7264ea0b2bb2f20fbf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_Door_1B.prefab using Guid(9f70b51d654f7264ea0b2bb2f20fbf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ad0f2f2e48fd0bc2d9ed69d853029d') in 0.018390 seconds 
+  Import took 0.021015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/Stone_Wall_1A3.prefab
+  artifactKey: Guid(806e81752a7b1d34a90c6e2719f0bee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/Stone_Wall_1A3.prefab using Guid(806e81752a7b1d34a90c6e2719f0bee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9724de74dc1a80d1eea62f6d5aa95bdf') in 0.022351 seconds 
+  Import took 0.024938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_Door_1A3.prefab
+  artifactKey: Guid(8f2c2d4fafa447449b7e18e9d34f5aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_Door_1A3.prefab using Guid(8f2c2d4fafa447449b7e18e9d34f5aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b360d2edfb218ac41f59faa54a3dd8c6') in 0.022909 seconds 
+  Import took 0.025736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_Door_1B3.prefab
+  artifactKey: Guid(7f535bcda367d69429a923f6ee15d419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_Door_1B3.prefab using Guid(7f535bcda367d69429a923f6ee15d419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c3bcc3fd52ef439b10e2b7858d1e84') in 0.021611 seconds 
+  Import took 0.025176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/Stone_Wall_1A4.prefab
+  artifactKey: Guid(d5eb49950fe654548a6d59c7058e7b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/Stone_Wall_1A4.prefab using Guid(d5eb49950fe654548a6d59c7058e7b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404d4b259e4c3513577c53b7d7ac5b32') in 0.021322 seconds 
+  Import took 0.024079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_1A2.prefab
+  artifactKey: Guid(faa5c0de257092c4eabb33ab09273eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_1A2.prefab using Guid(faa5c0de257092c4eabb33ab09273eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8c2243cc5c327042dd20fa1ce22799') in 0.022568 seconds 
+  Import took 0.025074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_1E.prefab
+  artifactKey: Guid(64a0d64be7d29a04f993307230cd2b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_1E.prefab using Guid(64a0d64be7d29a04f993307230cd2b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654e4877827192a3b19bffdf62403951') in 0.023513 seconds 
+  Import took 0.027225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_1D.prefab
+  artifactKey: Guid(f0d6d77c3d9975e45bf172d8c6236409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Wall_1D.prefab using Guid(f0d6d77c3d9975e45bf172d8c6236409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9540c5a8708a76a8d3dd442fd2d4b102') in 0.021068 seconds 
+  Import took 0.024924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/1_M.E. House_1.prefab
+  artifactKey: Guid(e086196633391794b92cb8199f8053ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/1_M.E. House_1.prefab using Guid(e086196633391794b92cb8199f8053ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db37cfcb5def22bdf29b782060a8a9f') in 0.022838 seconds 
+  Import took 0.025920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_1B.prefab
+  artifactKey: Guid(2fe5079bdaba20d49ab67c1e16f4a934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Town Creator Kit LITE/Prefabs/M.E. Town Creator LITE/House_Roof_1B.prefab using Guid(2fe5079bdaba20d49ab67c1e16f4a934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59e6cf9b66b9a1d4cb76ccfaeb91ebe') in 0.021506 seconds 
+  Import took 0.025733 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003157 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.886 seconds
+Domain Reload Profiling:
+	ReloadAssembly (887ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (715ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (266ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (250ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1395 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.0 MB.
+System memory in use after: 69.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1847.
+Total: 1.887200 ms (FindLiveObjects: 0.164100 ms CreateObjectMapping: 0.045200 ms MarkObjects: 1.633700 ms  DeleteObjects: 0.043400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.887 seconds
+Domain Reload Profiling:
+	ReloadAssembly (887ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (732ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (272ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (254ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1395 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.1 MB.
+System memory in use after: 69.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1850.
+Total: 1.792100 ms (FindLiveObjects: 0.127400 ms CreateObjectMapping: 0.046800 ms MarkObjects: 1.573300 ms  DeleteObjects: 0.043900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002792 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.732 seconds
+Domain Reload Profiling:
+	ReloadAssembly (733ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (598ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (219ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (208ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (35ms)
+				ProcessInitializeOnLoadAttributes (161ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1395 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.1 MB.
+System memory in use after: 69.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1853.
+Total: 2.242000 ms (FindLiveObjects: 0.218400 ms CreateObjectMapping: 0.050400 ms MarkObjects: 1.908000 ms  DeleteObjects: 0.064000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 455.657723 seconds.
+  path: Assets/Audio/Ambience/Forest ambience.wav
+  artifactKey: Guid(5458c3f19dc0a8e4fa5851192deca491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Ambience/Forest ambience.wav using Guid(5458c3f19dc0a8e4fa5851192deca491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33778840bcda2f3cd5a288febe527e7') in 0.047267 seconds 
+  Import took 0.049614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 255.349186 seconds.
+  path: Assets/Layered Rock Music Pack/Track3/Track_3_Base_110.ogg
+  artifactKey: Guid(892197f1e36c6d74fadc128484dbdf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layered Rock Music Pack/Track3/Track_3_Base_110.ogg using Guid(892197f1e36c6d74fadc128484dbdf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440f5a74881aef6c1abd98b2206dbcb9') in 0.013435 seconds 
+  Import took 0.015808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002272 seconds.
+  path: Assets/Layered Rock Music Pack/Track3/Track_3_Base_110.ogg
+  artifactKey: Guid(892197f1e36c6d74fadc128484dbdf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layered Rock Music Pack/Track3/Track_3_Base_110.ogg using Guid(892197f1e36c6d74fadc128484dbdf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440f5a74881aef6c1abd98b2206dbcb9') in 0.005849 seconds 
+  Import took 0.008410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Layered Rock Music Pack/Track3/Track_3_Combat_110.ogg
+  artifactKey: Guid(99a71c9c172b4f44394495a34b7af159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layered Rock Music Pack/Track3/Track_3_Combat_110.ogg using Guid(99a71c9c172b4f44394495a34b7af159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6fad1238536136643c5d9d79922e444') in 0.008735 seconds 
+  Import took 0.011026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Layered Rock Music Pack/Track3/Track_3_Calm_110.ogg
+  artifactKey: Guid(0bd0668966b01df4da43c337f5087b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layered Rock Music Pack/Track3/Track_3_Calm_110.ogg using Guid(0bd0668966b01df4da43c337f5087b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a666e2943a35c551d6a8708d042c1a') in 0.010649 seconds 
+  Import took 0.012708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.128961 seconds.
+  path: Assets/Layered Rock Music Pack/Track3/Track_3_Base_110.ogg
+  artifactKey: Guid(892197f1e36c6d74fadc128484dbdf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layered Rock Music Pack/Track3/Track_3_Base_110.ogg using Guid(892197f1e36c6d74fadc128484dbdf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a02e5d7d88ef89f9b3d34eed265d1b') in 0.005621 seconds 
+  Import took 0.007740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012331 seconds.
+  path: Assets/Layered Rock Music Pack/Track3/Track_3_Base_110.ogg
+  artifactKey: Guid(892197f1e36c6d74fadc128484dbdf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layered Rock Music Pack/Track3/Track_3_Base_110.ogg using Guid(892197f1e36c6d74fadc128484dbdf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a02e5d7d88ef89f9b3d34eed265d1b') in 0.005475 seconds 
+  Import took 0.007990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Layered Rock Music Pack/Track3/Track_3_Combat_110.ogg
+  artifactKey: Guid(99a71c9c172b4f44394495a34b7af159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layered Rock Music Pack/Track3/Track_3_Combat_110.ogg using Guid(99a71c9c172b4f44394495a34b7af159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79871a4059a02447d881863cdf4cd70') in 0.007546 seconds 
+  Import took 0.009433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Layered Rock Music Pack/Track3/Track_3_Calm_110.ogg
+  artifactKey: Guid(0bd0668966b01df4da43c337f5087b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layered Rock Music Pack/Track3/Track_3_Calm_110.ogg using Guid(0bd0668966b01df4da43c337f5087b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c10487eae07719941df08167e580b4d') in 0.010401 seconds 
+  Import took 0.012535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 240.923122 seconds.
+  path: Assets/RPGPP_LT/Materials/rpgpp_lt_cloud_a.mat
+  artifactKey: Guid(434bfd6528d84e643ade0d2cd5c6fe1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Materials/rpgpp_lt_cloud_a.mat using Guid(434bfd6528d84e643ade0d2cd5c6fe1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa9e40bc27de647e0d89dcbbe5cb42c') in 0.103850 seconds 
+  Import took 0.106236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/RPGPP_LT/Materials/rpgpp_lt_sky_a.mat
+  artifactKey: Guid(ff33af19770dd3e489f9c65e388009fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Materials/rpgpp_lt_sky_a.mat using Guid(ff33af19770dd3e489f9c65e388009fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254eccb48e2e5e2e124318a91a523aa4') in 0.028353 seconds 
+  Import took 0.030215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/RPGPP_LT/Materials/rpgpp_lt_mat_a.mat
+  artifactKey: Guid(58d53420af384224ea4cfee8973d18cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Materials/rpgpp_lt_mat_a.mat using Guid(58d53420af384224ea4cfee8973d18cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e8ede79829890c456644d478a12c74') in 0.009165 seconds 
+  Import took 0.011168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.782357 seconds.
+  path: Assets/Audio/SFX/Footstep Grass 1.wav
+  artifactKey: Guid(180df634c1e272a46b511019beb9af37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/Footstep Grass 1.wav using Guid(180df634c1e272a46b511019beb9af37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c9d80ea701cf569cc04b9614139e8b') in 0.008707 seconds 
+  Import took 0.010804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007488 seconds.
+  path: Assets/Audio/SFX/Footstep Grass 1.wav
+  artifactKey: Guid(180df634c1e272a46b511019beb9af37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/Footstep Grass 1.wav using Guid(180df634c1e272a46b511019beb9af37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c9d80ea701cf569cc04b9614139e8b') in 0.005386 seconds 
+  Import took 0.007511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Audio/SFX/Footstep Grass 4.wav
+  artifactKey: Guid(eab5d909cf1de19459f6cc066d5ef043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/Footstep Grass 4.wav using Guid(eab5d909cf1de19459f6cc066d5ef043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0989a941b0312dff66267b01bb552e') in 0.008567 seconds 
+  Import took 0.010770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Audio/SFX/Footstep Sand 3.wav
+  artifactKey: Guid(31bdf1bbb80b8c743abdd8a193470ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/Footstep Sand 3.wav using Guid(31bdf1bbb80b8c743abdd8a193470ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b25008c3e6a9de435569c3fa7071841') in 0.009425 seconds 
+  Import took 0.011366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Audio/SFX/Footsteps Wood (3).wav
+  artifactKey: Guid(47483e8c797416a4d839bc664fdeddab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/Footsteps Wood (3).wav using Guid(47483e8c797416a4d839bc664fdeddab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38b7c44f12674c9333e74e324096dfd') in 0.009098 seconds 
+  Import took 0.012293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Audio/SFX/Footsteps Wood (2).wav
+  artifactKey: Guid(d1bc077ea78120547b4e6744b0bb7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/Footsteps Wood (2).wav using Guid(d1bc077ea78120547b4e6744b0bb7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042f70c62da579bd057f7b218be64a7a') in 0.008977 seconds 
+  Import took 0.011237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Audio/SFX/Footsteps Wood (4).wav
+  artifactKey: Guid(edc6e6d6689ba0b439f6cbd08e2a6585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/Footsteps Wood (4).wav using Guid(edc6e6d6689ba0b439f6cbd08e2a6585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12531d049e8b92ffb65480870622b970') in 0.008874 seconds 
+  Import took 0.011424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Audio/SFX/Footstep Sand 4.wav
+  artifactKey: Guid(47f5b84101653f24faac383d339450f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/Footstep Sand 4.wav using Guid(47f5b84101653f24faac383d339450f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d286b36ce0b4d6d6e991c5ff3b1c4f0') in 0.010702 seconds 
+  Import took 0.012988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Audio/SFX/Footstep Grass 3.wav
+  artifactKey: Guid(88f30b2a591ccfa4a9b6fa50a733f7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/Footstep Grass 3.wav using Guid(88f30b2a591ccfa4a9b6fa50a733f7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c52d2cfaad7b4049aa70d340da7915') in 0.008412 seconds 
+  Import took 0.010429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Audio/SFX/Footstep Sand 1.wav
+  artifactKey: Guid(90cb1bb41a50b314dba2fa81544d138f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/Footstep Sand 1.wav using Guid(90cb1bb41a50b314dba2fa81544d138f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d53773e815bdf058303337cb997e65') in 0.008650 seconds 
+  Import took 0.010757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Audio/SFX/Footstep Sand 2.wav
+  artifactKey: Guid(7749bd617bff94246af646c3ae363b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/Footstep Sand 2.wav using Guid(7749bd617bff94246af646c3ae363b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f863ed41d657fd8e778e072852ae22df') in 0.009034 seconds 
+  Import took 0.011263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Audio/SFX/Footstep Grass 2.wav
+  artifactKey: Guid(7b033171772eaa9408f989a11707f57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/Footstep Grass 2.wav using Guid(7b033171772eaa9408f989a11707f57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321ef124b57dec4e308ca25d0e8b2406') in 0.008057 seconds 
+  Import took 0.009994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Audio/SFX/Footsteps Wood (1).wav
+  artifactKey: Guid(7263c51e821d04f4f816369e44cf1d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/Footsteps Wood (1).wav using Guid(7263c51e821d04f4f816369e44cf1d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d63e63b0d0c7f982058a3016ca3c14') in 0.008366 seconds 
+  Import took 0.010312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Audio/SFX/Footstep Sand 2.wav
+  artifactKey: Guid(7749bd617bff94246af646c3ae363b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/Footstep Sand 2.wav using Guid(7749bd617bff94246af646c3ae363b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f863ed41d657fd8e778e072852ae22df') in 0.005863 seconds 
+  Import took 0.008681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002815 seconds.
+  path: Assets/Audio/SFX/Footsteps Wood (1).wav
+  artifactKey: Guid(7263c51e821d04f4f816369e44cf1d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/Footsteps Wood (1).wav using Guid(7263c51e821d04f4f816369e44cf1d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d63e63b0d0c7f982058a3016ca3c14') in 0.005330 seconds 
+  Import took 0.007635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.501258 seconds.
+  path: Assets/Audio/Ambience/Forest ambience.wav
+  artifactKey: Guid(5458c3f19dc0a8e4fa5851192deca491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Ambience/Forest ambience.wav using Guid(5458c3f19dc0a8e4fa5851192deca491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b41a515ea82613e7fa3da2a19ceb55a') in 0.007278 seconds 
+  Import took 0.009313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007769 seconds.
+  path: Assets/Audio/Ambience/Forest ambience.wav
+  artifactKey: Guid(5458c3f19dc0a8e4fa5851192deca491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Ambience/Forest ambience.wav using Guid(5458c3f19dc0a8e4fa5851192deca491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b41a515ea82613e7fa3da2a19ceb55a') in 0.005505 seconds 
+  Import took 0.007846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.224403 seconds.
+  path: Assets/Audio/Ambience/Forest ambience.wav
+  artifactKey: Guid(5458c3f19dc0a8e4fa5851192deca491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Ambience/Forest ambience.wav using Guid(5458c3f19dc0a8e4fa5851192deca491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566a2b9c568bfa39cccfb5e7215b27ca') in 0.005322 seconds 
+  Import took 0.007499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009682 seconds.
+  path: Assets/Audio/Ambience/Forest ambience.wav
+  artifactKey: Guid(5458c3f19dc0a8e4fa5851192deca491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Ambience/Forest ambience.wav using Guid(5458c3f19dc0a8e4fa5851192deca491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566a2b9c568bfa39cccfb5e7215b27ca') in 0.005432 seconds 
+  Import took 0.007632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.605619 seconds.
+  path: Assets/Audio/Ambience/Forest ambience.wav
+  artifactKey: Guid(5458c3f19dc0a8e4fa5851192deca491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Ambience/Forest ambience.wav using Guid(5458c3f19dc0a8e4fa5851192deca491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188f7ddb0bb10e76b99297c5d506c734') in 0.004838 seconds 
+  Import took 0.006833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009279 seconds.
+  path: Assets/Audio/Ambience/Forest ambience.wav
+  artifactKey: Guid(5458c3f19dc0a8e4fa5851192deca491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Ambience/Forest ambience.wav using Guid(5458c3f19dc0a8e4fa5851192deca491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188f7ddb0bb10e76b99297c5d506c734') in 0.005618 seconds 
+  Import took 0.008081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.855851 seconds.
+  path: Assets/Audio/Ambience/Forest ambience.wav
+  artifactKey: Guid(5458c3f19dc0a8e4fa5851192deca491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Ambience/Forest ambience.wav using Guid(5458c3f19dc0a8e4fa5851192deca491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a70fe5f663ff7e9cad007b42f015fc') in 0.006502 seconds 
+  Import took 0.008592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008031 seconds.
+  path: Assets/Audio/Ambience/Forest ambience.wav
+  artifactKey: Guid(5458c3f19dc0a8e4fa5851192deca491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Ambience/Forest ambience.wav using Guid(5458c3f19dc0a8e4fa5851192deca491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a70fe5f663ff7e9cad007b42f015fc') in 0.004817 seconds 
+  Import took 0.006950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.672237 seconds.
+  path: Assets/Audio/Ambience/Forest ambience.wav
+  artifactKey: Guid(5458c3f19dc0a8e4fa5851192deca491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Ambience/Forest ambience.wav using Guid(5458c3f19dc0a8e4fa5851192deca491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c729da1b4b42992ebde06a8041ec80a') in 0.005202 seconds 
+  Import took 0.007431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009065 seconds.
+  path: Assets/Audio/Ambience/Forest ambience.wav
+  artifactKey: Guid(5458c3f19dc0a8e4fa5851192deca491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Ambience/Forest ambience.wav using Guid(5458c3f19dc0a8e4fa5851192deca491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c729da1b4b42992ebde06a8041ec80a') in 0.005253 seconds 
+  Import took 0.007236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.439317 seconds.
+  path: Assets/Audio/Ambience/Forest ambience.wav
+  artifactKey: Guid(5458c3f19dc0a8e4fa5851192deca491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Ambience/Forest ambience.wav using Guid(5458c3f19dc0a8e4fa5851192deca491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0d7ab8c29c1afc5517b7263ee9cbd5') in 0.004846 seconds 
+  Import took 0.006814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009510 seconds.
+  path: Assets/Audio/Ambience/Forest ambience.wav
+  artifactKey: Guid(5458c3f19dc0a8e4fa5851192deca491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Ambience/Forest ambience.wav using Guid(5458c3f19dc0a8e4fa5851192deca491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0d7ab8c29c1afc5517b7263ee9cbd5') in 0.004878 seconds 
+  Import took 0.007046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.409338 seconds.
+  path: Assets/Audio/Ambience/Bird.wav
+  artifactKey: Guid(42ee620c06bb2104cbc57f65d200bbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Ambience/Bird.wav using Guid(42ee620c06bb2104cbc57f65d200bbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae072d381af5b7b5c7d657d638a1e9f') in 0.012196 seconds 
+  Import took 0.014333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004561 seconds.
+  path: Assets/Audio/Ambience/Bird.wav
+  artifactKey: Guid(42ee620c06bb2104cbc57f65d200bbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Ambience/Bird.wav using Guid(42ee620c06bb2104cbc57f65d200bbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae072d381af5b7b5c7d657d638a1e9f') in 0.005226 seconds 
+  Import took 0.007265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Audio/Ambience/Macaw.wav
+  artifactKey: Guid(5e08d9d813509bc4eb29c57cab13b63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Ambience/Macaw.wav using Guid(5e08d9d813509bc4eb29c57cab13b63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5ea5cbefc65fecfc319e3aac445d97') in 0.008011 seconds 
+  Import took 0.009965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Audio/Ambience/Waterdrops.wav
+  artifactKey: Guid(4ec102d196c2d204f9111528b0988e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Ambience/Waterdrops.wav using Guid(4ec102d196c2d204f9111528b0988e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c03b1fb31714192045de268b1a08e9d') in 0.011439 seconds 
+  Import took 0.013646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Audio/Ambience/Macaw.wav
+  artifactKey: Guid(5e08d9d813509bc4eb29c57cab13b63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Ambience/Macaw.wav using Guid(5e08d9d813509bc4eb29c57cab13b63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5ea5cbefc65fecfc319e3aac445d97') in 0.005107 seconds 
+  Import took 0.006966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000565 seconds.
+  path: Assets/Audio/Ambience/Waterdrops.wav
+  artifactKey: Guid(4ec102d196c2d204f9111528b0988e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Ambience/Waterdrops.wav using Guid(4ec102d196c2d204f9111528b0988e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c03b1fb31714192045de268b1a08e9d') in 0.005997 seconds 
+  Import took 0.007968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.353519 seconds.
+  path: Assets/Audio/Ambience/Bird.wav
+  artifactKey: Guid(42ee620c06bb2104cbc57f65d200bbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Ambience/Bird.wav using Guid(42ee620c06bb2104cbc57f65d200bbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5d8a3fb6fd068f9bbd6e70118d558d') in 0.007707 seconds 
+  Import took 0.009811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007801 seconds.
+  path: Assets/Audio/Ambience/Bird.wav
+  artifactKey: Guid(42ee620c06bb2104cbc57f65d200bbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Ambience/Bird.wav using Guid(42ee620c06bb2104cbc57f65d200bbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5d8a3fb6fd068f9bbd6e70118d558d') in 0.005492 seconds 
+  Import took 0.007652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Audio/Ambience/Macaw.wav
+  artifactKey: Guid(5e08d9d813509bc4eb29c57cab13b63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Ambience/Macaw.wav using Guid(5e08d9d813509bc4eb29c57cab13b63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72ad6cfe4b4d19dc935fac63cb3ecbb') in 0.006714 seconds 
+  Import took 0.008665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Audio/Ambience/Waterdrops.wav
+  artifactKey: Guid(4ec102d196c2d204f9111528b0988e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Ambience/Waterdrops.wav using Guid(4ec102d196c2d204f9111528b0988e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b134747cc87fad6742656e6ad4fac2') in 0.007245 seconds 
+  Import took 0.009206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Audio/Ambience/Macaw.wav
+  artifactKey: Guid(5e08d9d813509bc4eb29c57cab13b63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Ambience/Macaw.wav using Guid(5e08d9d813509bc4eb29c57cab13b63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72ad6cfe4b4d19dc935fac63cb3ecbb') in 0.005883 seconds 
+  Import took 0.008361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004736 seconds.
+  path: Assets/Audio/Ambience/Waterdrops.wav
+  artifactKey: Guid(4ec102d196c2d204f9111528b0988e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Ambience/Waterdrops.wav using Guid(4ec102d196c2d204f9111528b0988e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b134747cc87fad6742656e6ad4fac2') in 0.005136 seconds 
+  Import took 0.007194 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
