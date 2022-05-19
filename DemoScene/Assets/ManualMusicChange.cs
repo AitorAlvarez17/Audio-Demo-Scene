@@ -5,20 +5,30 @@ using UnityEngine.Audio;
 
 public class ManualMusicChange : MonoBehaviour
 {
-    public List<AudioMixerSnapshot> tracklist;
+    public List<AudioClip> tracklist;
 
     public float transitionTime = 0.2f;
 
     private int iterator = 0;
 
+    private AudioSource source;
+    private void Start()
+    {
+        source = gameObject.GetComponent<AudioSource>();
+    }
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E))
-        {
-            if (iterator > tracklist.Count)
-                tracklist[iterator].TransitionTo(transitionTime);
-            else
-                iterator = 0;
+        Collider[] player = Physics.OverlapSphere(transform.position, source.maxDistance/2, LayerMask.GetMask("Player"));
+
+        if(player.Length > 0)
+        { 
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                if (iterator < tracklist.Count)
+                    source.clip = tracklist[iterator];
+                else
+                    iterator = 0;
+            }
         }
     }
 }
