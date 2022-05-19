@@ -15,7 +15,7 @@ public class ManualMusicChange : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.E))
         {
-            if (iterator > tracklist.Count)
+            if (iterator < tracklist.Count)
                 tracklist[iterator].TransitionTo(transitionTime);
             else
                 iterator = 0;

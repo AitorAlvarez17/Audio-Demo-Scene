@@ -369,6 +369,7 @@
 "Assets/Cartoon SportCar B01/Standard Assets/script/WheelEffects.cs"
 "Assets/EnvironmentChange.cs"
 "Assets/FootstepSound.cs"
+"Assets/ManualMusicChange.cs"
 "Assets/MusicChange.cs"
 -langversion:9.0
 
