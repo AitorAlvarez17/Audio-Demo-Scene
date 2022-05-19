@@ -9,7 +9,7 @@ public class ManualMusicChange : MonoBehaviour
 
     public float transitionTime = 0.2f;
 
-    private int iterator = 0;
+    private int iterator = 1;
 
     private AudioSource source;
     private void Start()
@@ -26,10 +26,24 @@ public class ManualMusicChange : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 if (iterator < tracklist.Count)
+                {
                     source.clip = tracklist[iterator];
+                    source.Play();
+                    iterator++;
+                }
+
                 else
                     iterator = 0;
             }
         }
+        if(!source.isPlaying)
+        {
+            iterator++;
+            if (iterator > 2)
+                iterator = 0;
+            source.clip = tracklist[iterator];
+        }
+
+
     }
 }
