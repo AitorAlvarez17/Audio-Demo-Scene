@@ -369,6 +369,7 @@
 "Assets/Cartoon SportCar B01/Standard Assets/script/WheelEffects.cs"
 "Assets/ColorChange.cs"
 "Assets/EnvironmentChange.cs"
+"Assets/FlickeringLight.cs"
 "Assets/FootstepSound.cs"
 "Assets/MusicChange.cs"
 -langversion:9.0
