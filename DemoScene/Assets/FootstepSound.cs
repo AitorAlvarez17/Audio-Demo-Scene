@@ -5,10 +5,10 @@ using UnityEngine;
 public class FootstepSound : MonoBehaviour
 {
     public AudioClip[] foostepsOnGrass;
-    public AudioClip[] foostepsOnSand;
-    public AudioClip[] foostepsOnWood;
+    public AudioClip[] foostepsOnConcrete;
+    public AudioClip[] foostepsOnGlass;
 
-    public string material;
+    private string surface;
 
     void PlayFootstepSound()
     {
@@ -16,21 +16,21 @@ public class FootstepSound : MonoBehaviour
         audioSource.volume = Random.Range(0.9f, 1.0f);
         audioSource.pitch = Random.Range(0.9f, 1.1f);
 
-        switch (material)
+        switch (surface)
         {
             case "Grass":
                 if (foostepsOnGrass.Length > 0)
                     audioSource.PlayOneShot(foostepsOnGrass[Random.Range(0, foostepsOnGrass.Length)]);
                 break;
 
-            case "Sand":
-                if (foostepsOnSand.Length > 0)
-                    audioSource.PlayOneShot(foostepsOnSand[Random.Range(0, foostepsOnSand.Length)]);
+            case "Concrete":
+                if (foostepsOnConcrete.Length > 0)
+                    audioSource.PlayOneShot(foostepsOnConcrete[Random.Range(0, foostepsOnConcrete.Length)]);
                 break;
 
-            case "Wood":
-                if (foostepsOnWood.Length > 0)
-                    audioSource.PlayOneShot(foostepsOnWood[Random.Range(0, foostepsOnWood.Length)]);
+            case "Glass":
+                if (foostepsOnGlass.Length > 0)
+                    audioSource.PlayOneShot(foostepsOnGlass[Random.Range(0, foostepsOnGlass.Length)]);
                 break;
 
             default:
@@ -43,9 +43,9 @@ public class FootstepSound : MonoBehaviour
         switch (collision.gameObject.tag)
         {
             case "Grass":
-            case "Sand":
-            case "Wood":
-                material = collision.gameObject.tag;
+            case "Concrete":
+            case "Glass":
+                surface = collision.gameObject.tag;
                 break;
 
             default:
