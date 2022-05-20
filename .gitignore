@@ -68,5 +68,7 @@ crashlytics-build.properties
 DemoScene/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
 
 # Temporary auto-generated Android Assets
-DemoScene/[Aa]ssets/[Ss]treamingAssets/aa.meta
-DemoScene/[Aa]ssets/[Ss]treamingAssets/aa/*
+DemoScene/Library/
+DemoScene/Library/
+DemoScene/Logs/
+DemoScene/UserSettings/
