@@ -367,6 +367,7 @@
 "Assets/Cartoon SportCar B01/Standard Assets/script/SkidTrail.cs"
 "Assets/Cartoon SportCar B01/Standard Assets/script/VignetteAndChromaticAberration.cs"
 "Assets/Cartoon SportCar B01/Standard Assets/script/WheelEffects.cs"
+"Assets/ColorChange.cs"
 "Assets/EnvironmentChange.cs"
 "Assets/FootstepSound.cs"
 "Assets/MusicChange.cs"
